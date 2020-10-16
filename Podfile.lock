@@ -1,0 +1,28 @@
+PODS:
+  - GoogleMaps (4.0.0):
+    - GoogleMaps/Maps (= 4.0.0)
+  - GoogleMaps/Base (4.0.0)
+  - GoogleMaps/Maps (4.0.0):
+    - GoogleMaps/Base
+  - Mapbox-iOS-SDK (6.2.1):
+    - MapboxMobileEvents (~> 0.10.4)
+  - MapboxMobileEvents (0.10.4)
+
+DEPENDENCIES:
+  - GoogleMaps (~> 4)
+  - Mapbox-iOS-SDK (~> 6.0)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - Mapbox-iOS-SDK
+    - MapboxMobileEvents
+
+SPEC CHECKSUMS:
+  GoogleMaps: b7f7fc569a9b354a3af0d9729dbec40957b7d41e
+  Mapbox-iOS-SDK: c5a2ec3a3a0a77ee0ba78f91380e83898cb6aa41
+  MapboxMobileEvents: 3dc72ea23e62d4afd64d3242f04686405b4a0e98
+
+PODFILE CHECKSUM: 6f8e2510857bd4229c62baf1603bd5dec72c5e61
+
+COCOAPODS: 1.10.0.rc.1
